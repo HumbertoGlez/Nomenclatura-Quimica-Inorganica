@@ -91,6 +91,9 @@
                                 <rect key="frame" x="155" y="426" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Siguiente"/>
+                                <connections>
+                                    <action selector="sigFormula:" destination="iC1-MM-Kw8" eventType="touchUpInside" id="d0L-Ln-d9R"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-At-xnx">
                                 <rect key="frame" x="201" y="482" width="149" height="128"/>
@@ -111,6 +114,9 @@
                         <viewLayoutGuide key="safeArea" id="1bh-9F-Uaf"/>
                     </view>
                     <navigationItem key="navigationItem" id="dP0-t8-xFQ"/>
+                    <connections>
+                        <outlet property="lbFormula" destination="kdu-Mh-CJg" id="oU5-0a-FR6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2hF-jo-2lT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
