@@ -42,7 +42,6 @@
 		E3971569244DECE9005A239B = {
 			isa = PBXGroup;
 			children = (
-				E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */,
 				E3971574244DECE9005A239B /* NQumicaInorganica */,
 				E3971573244DECE9005A239B /* Products */,
 			);
@@ -59,6 +58,7 @@
 		E3971574244DECE9005A239B /* NQumicaInorganica */ = {
 			isa = PBXGroup;
 			children = (
+				E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */,
 				E3971575244DECE9005A239B /* AppDelegate.swift */,
 				E3971577244DECE9005A239B /* SceneDelegate.swift */,
 				E3971579244DECE9005A239B /* ViewController.swift */,
