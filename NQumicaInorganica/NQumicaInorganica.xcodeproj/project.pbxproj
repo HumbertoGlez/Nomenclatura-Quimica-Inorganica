@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB16D9E2450EFC700CE5353 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB16D9D2450EFC700CE5353 /* GameViewController.swift */; };
+		0EB16DA02450EFDD00CE5353 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */; };
 		E391024E2450B403001C28EC /* CompuestosBinariosIonicos.plist in Resources */ = {isa = PBXBuildFile; fileRef = E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */; };
 		E3971576244DECE9005A239B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971575244DECE9005A239B /* AppDelegate.swift */; };
 		E3971578244DECE9005A239B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971577244DECE9005A239B /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EB16D9D2450EFC700CE5353 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CompuestosBinariosIonicos.plist; sourceTree = "<group>"; };
 		E3971572244DECE9005A239B /* NQumicaInorganica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NQumicaInorganica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3971575244DECE9005A239B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				E3971577244DECE9005A239B /* SceneDelegate.swift */,
 				E3971579244DECE9005A239B /* ViewController.swift */,
 				E397157B244DECE9005A239B /* Main.storyboard */,
+				0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */,
+				0EB16D9D2450EFC700CE5353 /* GameViewController.swift */,
 				E397157E244DECFB005A239B /* Assets.xcassets */,
 				E3971580244DECFB005A239B /* LaunchScreen.storyboard */,
 				E3971583244DECFB005A239B /* Info.plist */,
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB16D9E2450EFC700CE5353 /* GameViewController.swift in Sources */,
 				E397157A244DECE9005A239B /* ViewController.swift in Sources */,
 				E3971576244DECE9005A239B /* AppDelegate.swift in Sources */,
+				0EB16DA02450EFDD00CE5353 /* ConfigViewController.swift in Sources */,
 				E3971578244DECE9005A239B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8P53N37BP;
 				INFOPLIST_FILE = NQumicaInorganica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8P53N37BP;
 				INFOPLIST_FILE = NQumicaInorganica/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
