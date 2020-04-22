@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E391024E2450B403001C28EC /* CompuestosBinariosIonicos.plist in Resources */ = {isa = PBXBuildFile; fileRef = E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */; };
 		E3971576244DECE9005A239B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971575244DECE9005A239B /* AppDelegate.swift */; };
 		E3971578244DECE9005A239B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971577244DECE9005A239B /* SceneDelegate.swift */; };
 		E397157A244DECE9005A239B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971579244DECE9005A239B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CompuestosBinariosIonicos.plist; sourceTree = "<group>"; };
 		E3971572244DECE9005A239B /* NQumicaInorganica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NQumicaInorganica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3971575244DECE9005A239B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3971577244DECE9005A239B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		E3971569244DECE9005A239B = {
 			isa = PBXGroup;
 			children = (
+				E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */,
 				E3971574244DECE9005A239B /* NQumicaInorganica */,
 				E3971573244DECE9005A239B /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				E3971582244DECFB005A239B /* LaunchScreen.storyboard in Resources */,
 				E397157F244DECFB005A239B /* Assets.xcassets in Resources */,
+				E391024E2450B403001C28EC /* CompuestosBinariosIonicos.plist in Resources */,
 				E397157D244DECE9005A239B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

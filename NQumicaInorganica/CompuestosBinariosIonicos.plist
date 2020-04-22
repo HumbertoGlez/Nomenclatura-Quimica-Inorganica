@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Formula</key>
+		<string>Na2O</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de sodio</string>
+			<string>oxido de sodio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>SnO</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de estaño (II)</string>
+			<string>óxido de estaño II</string>
+			<string>oxido de estaño (II)</string>
+			<string>oxido de estaño II</string>
+			<string>protóxido de estaño</string>
+			<string>óxido estañoso</string>
+			<string>oxido estañoso</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>SnO2</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de estaño (IV)</string>
+			<string>óxido de estaño IV</string>
+			<string>oxido de estaño (IV)</string>
+			<string>oxido de estaño IV</string>
+			<string>dióxido de estaño</string>
+			<string>bióxido de estaño</string>
+			<string>óxido estáñico</string>
+			<string>óxido estañico</string>
+			<string>oxido estáñico</string>
+			<string>oxido estañico</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>FeO</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de hierro (II)</string>
+			<string>oxido de hierro (II)</string>
+			<string>óxido de hierro II</string>
+			<string>oxido de hierro II</string>
+			<string>óxido ferroso</string>
+			<string>oxido ferroso</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>Fe2O3</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de hierro (III)</string>
+			<string>oxido de hierro (III)</string>
+			<string>óxido de hierro III</string>
+			<string>oxido de hierro III</string>
+			<string>trióxido de dihierro</string>
+			<string>óxido férrico</string>
+			<string>oxido férrico</string>
+			<string>óxido ferrico</string>
+			<string>oxido ferrico</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>Cu2O</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de cobre (I)</string>
+			<string>óxido de cobre I</string>
+			<string>oxido de cobre (I)</string>
+			<string>oxido de cobre I</string>
+			<string>óxido cuproso</string>
+			<string>oxido cuproso</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>CuO</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de cobre (II)</string>
+			<string>óxido de cobre II</string>
+			<string>oxido de cobre (II)</string>
+			<string>oxido de cobre II</string>
+			<string>óxido cúprico</string>
+			<string>oxido cúprico</string>
+			<string>óxido cuprico</string>
+			<string>oxido cuprico</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>LiH</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de litio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>NaH</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de sodio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>AlH3</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de aluminio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>LiH</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de litio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>CaH2</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de calcio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>SrH2</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de estroncio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>MgH2</string>
+		<key>Nombres</key>
+		<array>
+			<string>hidruro de magnesio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>KBr</string>
+		<key>Nombres</key>
+		<array>
+			<string>bromuro de potasio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>FeCl2</string>
+		<key>Nombres</key>
+		<array>
+			<string>cloruro de hierro (II)</string>
+			<string>cloruro de hierro II</string>
+			<string>cloruro ferroso</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>Au2S3</string>
+		<key>Nombres</key>
+		<array>
+			<string>sulfuro de oro (III)</string>
+			<string>sulfuro de oro III</string>
+			<string>sulfuro áurico</string>
+			<string>sulfuro aurico</string>
+			<string>trisulfuro de dioro</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>MgBr2</string>
+		<key>Nombres</key>
+		<array>
+			<string>bromuro de magnesio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>BaS</string>
+		<key>Nombres</key>
+		<array>
+			<string>sulfuro de bario</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>Li2Se</string>
+		<key>Nombres</key>
+		<array>
+			<string>seleniuro de litio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>Li2S</string>
+		<key>Nombres</key>
+		<array>
+			<string>sulfuro de litio</string>
+		</array>
+	</dict>
+</array>
+</plist>
