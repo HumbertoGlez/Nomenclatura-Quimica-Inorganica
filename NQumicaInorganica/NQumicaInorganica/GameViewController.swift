@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class GameViewController: ViewController {
     
@@ -28,6 +29,7 @@ class GameViewController: ViewController {
     var correctas = 0
     // El usurario ya hizo un intento para el compuesto actual
     var intentoHecho = false
+    var audioPlayer: AVAudioPlayer!
     
     
     override func viewDidLoad() {
@@ -63,7 +65,7 @@ class GameViewController: ViewController {
     @IBAction func sigFormula(_ sender: Any) {
         tfRespuesta.text = ""
         intentoHecho = false
-        nFormula = Int.random(in: 0 ..< 20)
+        nFormula = Int.random(in: 0 ..< 30)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
         nombresFormula = dic["Nombres"] as? [String]
@@ -71,7 +73,7 @@ class GameViewController: ViewController {
         nombresFormula = nombresFormula.map{$0.map{$0.lowercased()}}
         // For debug purposes, comment when not needed
         print(nombresFormula!)
-        tfRespuesta.text = nombresFormula[0]
+        //tfRespuesta.text = nombresFormula[0]
     }
     
     @IBAction func verificarRespuesta(_ sender: UIButton) {
@@ -81,11 +83,34 @@ class GameViewController: ViewController {
         let respuesta = tfRespuesta.text!
         print(respuesta.lowercased())
         if nombresFormula.contains(respuesta.lowercased()) {
+            // Play correct sound
+            if let correctSound = NSDataAsset(name: "correctSnd") {
+                do {
+                    audioPlayer = try AVAudioPlayer(data: correctSound.data, fileTypeHint: AVFileType.wav.rawValue)
+                } catch let error as NSError {
+                   // couldn't load file :(
+                    print(error.localizedDescription)
+                }
+                audioPlayer.play()
+            }
+            // show correct message
             lbMensaje.text = "Respuesta correcta"
+            // update score
             if !intentoHecho {
                 correctas = correctas + 1
             }
         } else {
+            // Play wrong sound
+            if let wrongSound = NSDataAsset(name: "incorrectSnd") {
+                do {
+                    audioPlayer = try AVAudioPlayer(data: wrongSound.data, fileTypeHint: AVFileType.wav.rawValue)
+                } catch let error as NSError {
+                   // couldn't load file :(
+                    print(error.localizedDescription)
+                }
+                audioPlayer.play()
+            }
+            // show wrong message
             lbMensaje.text = "Respuesta incorrecta"
         }
         intentoHecho = true
