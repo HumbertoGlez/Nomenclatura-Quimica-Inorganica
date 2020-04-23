@@ -12,12 +12,15 @@ class GameViewController: ViewController {
     
     // Outlets
     @IBOutlet weak var lbFormula: UILabel!
+    @IBOutlet weak var lbMensaje: UILabel!
+    @IBOutlet weak var tfRespuesta: UITextField!
     
     
     //Variables
     var arrDiccionarios : NSArray!
     var nFormula : Int!
     let path = Bundle.main.path(forResource: "CompuestosBinariosIonicos", ofType: "plist")
+    var nombresFormula: [String]!
     
     
     
@@ -29,6 +32,10 @@ class GameViewController: ViewController {
         nFormula = Int.random(in: 0 ..< 20)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
+        nombresFormula = dic["Nombres"] as? [String]
+        nombresFormula = nombresFormula.map{$0.map{$0.lowercased()}}
+        // For debug purposes
+        print(nombresFormula!)
     }
     
 
@@ -42,11 +49,23 @@ class GameViewController: ViewController {
     }
     */
     @IBAction func sigFormula(_ sender: Any) {
+        tfRespuesta.text = ""
         nFormula = Int.random(in: 0 ..< 20)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
-        
+        nombresFormula = dic["Nombres"] as? [String]
+        // For debug purposes
+        print(nombresFormula!)
     }
     
-
+    @IBAction func verificarRespuesta(_ sender: UIButton) {
+        let respuesta = tfRespuesta.text!
+        print(respuesta.lowercased())
+        if nombresFormula.contains(respuesta.lowercased()) {
+            lbMensaje.text = "Respuesta correcta"
+        } else {
+            lbMensaje.text = "Respuesta incorrecta"
+        }
+    }
+    
 }
