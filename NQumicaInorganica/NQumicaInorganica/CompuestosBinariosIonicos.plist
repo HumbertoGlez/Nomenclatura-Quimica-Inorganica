@@ -101,6 +101,20 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
+		<string>MgO</string>
+		<key>Nombres</key>
+		<array>
+			<string>óxido de magnesio</string>
+			<string>oxido de magnesio</string>
+			<string>monóxido de magnesio</string>
+			<string>monoxido de magnesio</string>
+			<string>óxido magnésico</string>
+			<string>oxido magnésico</string>
+			<string>oxido magnesico</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
 		<string>LiH</string>
 		<key>Nombres</key>
 		<array>
@@ -199,6 +213,7 @@
 		<key>Nombres</key>
 		<array>
 			<string>sulfuro de bario</string>
+			<string>monosulfuro de bario</string>
 		</array>
 	</dict>
 	<dict>
@@ -215,6 +230,88 @@
 		<key>Nombres</key>
 		<array>
 			<string>sulfuro de litio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>LiBr</string>
+		<key>Nombres</key>
+		<array>
+			<string>bromuro de litio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>SrS</string>
+		<key>Nombres</key>
+		<array>
+			<string>sulfuro de estroncio</string>
+			<string>monosulfuro de estroncio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>NaF</string>
+		<key>Nombres</key>
+		<array>
+			<string>fluoruro de sodio</string>
+			<string>fluoruro sódico</string>
+			<string>fluoruro sodico</string>
+			<string>monofluoruro de sodio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>KF</string>
+		<key>Nombres</key>
+		<array>
+			<string>fluoruro de potasio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>Ag2S</string>
+		<key>Nombres</key>
+		<array>
+			<string>sulfuro de plata</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>BCl3</string>
+		<key>Nombres</key>
+		<array>
+			<string>cloruro de boro</string>
+			<string>tricloruro de boro</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>BF3</string>
+		<key>Nombres</key>
+		<array>
+			<string>fluoruro de boro</string>
+			<string>trifluoruro de boro</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>AlCl3</string>
+		<key>Nombres</key>
+		<array>
+			<string>cloruro de aluminio</string>
+			<string>tricloruro de aluminio</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Formula</key>
+		<string>SrSe</string>
+		<key>Nombres</key>
+		<array>
+			<string>seleniuro de estroncio</string>
+			<string>monoseleniuro de estroncio</string>
+			<string>seleniuro estróncico</string>
+			<string>seleniuro estroncico</string>
 		</array>
 	</dict>
 </array>
