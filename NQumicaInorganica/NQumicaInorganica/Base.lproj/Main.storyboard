@@ -126,6 +126,27 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjX-ge-K4c">
+                                        <rect key="frame" x="8" y="45" width="22" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoT-Lt-ylT">
+                                        <rect key="frame" x="8" y="62" width="22" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="= 0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ce0-TR-scL">
+                                        <rect key="frame" x="31" y="52" width="110" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.89435998482477297" green="0.98535839557006599" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -142,8 +163,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="dP0-t8-xFQ"/>
                     <connections>
+                        <outlet property="lbCorrectas" destination="zjX-ge-K4c" id="ojx-1w-95d"/>
                         <outlet property="lbFormula" destination="kdu-Mh-CJg" id="oU5-0a-FR6"/>
+                        <outlet property="lbIntentos" destination="yoT-Lt-ylT" id="Tua-Yd-Y6z"/>
                         <outlet property="lbMensaje" destination="dim-nj-3J6" id="wOU-7D-Tpk"/>
+                        <outlet property="lbPorcentaje" destination="Ce0-TR-scL" id="kAf-b9-dgO"/>
                         <outlet property="tfRespuesta" destination="CbK-wq-HHc" id="2bi-kB-3Un"/>
                     </connections>
                 </viewController>
