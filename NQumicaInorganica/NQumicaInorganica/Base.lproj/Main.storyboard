@@ -6,6 +6,14 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="chemistry.ttf">
+            <string>Chemistry</string>
+        </array>
+        <array key="tiza.ttf">
+            <string>Tiza</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="Z6s-iq-oY1">
@@ -14,6 +22,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Stm-Ug-tLs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.65490196078431373" green="0.91764705882352937" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="rvF-hg-fm6"/>
@@ -31,31 +40,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmr-id-5Ct">
-                                <rect key="frame" x="167" y="401" width="41" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="vyA-yA-Tcr">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmr-id-5Ct">
+                                <rect key="frame" x="83" y="355" width="208" height="99.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Iniciar"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="32"/>
+                                <state key="normal" title="Iniciar" backgroundImage="Botones_Boton">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="iC1-MM-Kw8" kind="show" identifier="Iniciar" id="Uoh-v4-HWX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWb-8a-COV">
-                                <rect key="frame" x="139" y="463" width="97" height="30"/>
+                                <rect key="frame" x="83" y="462" width="208" height="99.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Configuracion"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="28"/>
+                                <state key="normal" title="Configuración" backgroundImage="Botones_Boton">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="txZ-7P-dfR" kind="show" identifier="Config" id="64g-ii-ZVc"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Books" translatesAutoresizingMaskIntoConstraints="NO" id="Pqp-6Z-p7u">
+                                <rect key="frame" x="16" y="366" width="59" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Atom" translatesAutoresizingMaskIntoConstraints="NO" id="TCk-bz-GQE">
+                                <rect key="frame" x="300" y="366" width="59" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nomenclatura Quimica Inorganica" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggt-y9-9DE">
+                                <rect key="frame" x="16" y="181" width="343" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Tiza" family="Tiza" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vyA-yA-Tcr" secondAttribute="trailing" id="H0B-ck-DEl"/>
+                            <constraint firstItem="vyA-yA-Tcr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yyy-s0-zwj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vyA-yA-Tcr" secondAttribute="bottom" id="hgm-rB-Ih7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="vyA-yA-Tcr" secondAttribute="top" id="kRL-mc-D9v"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="ed0-WY-WfQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="108"/>
+            <point key="canvasLocation" x="136.80000000000001" y="107.49625187406298"/>
         </scene>
         <!--Config View Controller-->
         <scene sceneID="JIJ-R8-2Zz">
@@ -64,7 +103,18 @@
                     <view key="view" contentMode="scaleToFill" id="epn-BJ-JcX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="zHk-aI-6AS">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="trailing" secondItem="zHk-aI-6AS" secondAttribute="trailing" id="aGh-uw-vPL"/>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="bottom" secondItem="zHk-aI-6AS" secondAttribute="bottom" id="c4s-bM-lk9"/>
+                            <constraint firstItem="zHk-aI-6AS" firstAttribute="leading" secondItem="0li-vs-C5L" secondAttribute="leading" id="k2W-zv-Fxm"/>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="top" secondItem="zHk-aI-6AS" secondAttribute="top" id="mfm-m5-AJK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="0li-vs-C5L"/>
                     </view>
                     <navigationItem key="navigationItem" id="K3Q-aR-uvt"/>
@@ -81,11 +131,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Formula del compuesto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdu-Mh-CJg">
-                                <rect key="frame" x="92" y="156" width="192" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="Efi-DY-WAs">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Formula del compuesto" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdu-Mh-CJg">
+                                <rect key="frame" x="13" y="156" width="349" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Tiza" family="Tiza" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CbK-wq-HHc">
@@ -95,22 +148,25 @@
                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rb-Ma-UPd">
-                                <rect key="frame" x="159" y="308" width="57" height="30"/>
+                                <rect key="frame" x="83" y="308" width="208" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Verificar"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="24"/>
+                                <state key="normal" title="Verificar" backgroundImage="Botones_Boton"/>
                                 <connections>
                                     <action selector="verificarRespuesta:" destination="iC1-MM-Kw8" eventType="touchUpInside" id="uaG-cT-adK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q35-lo-6tC">
-                                <rect key="frame" x="122" y="371" width="130" height="30"/>
+                                <rect key="frame" x="47" y="366" width="280" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Mostrar Respuesta"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="24"/>
+                                <state key="normal" title="Mostrar Respuesta" backgroundImage="Botones_Boton"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gee-Ir-Euy">
-                                <rect key="frame" x="155" y="426" width="64" height="30"/>
+                                <rect key="frame" x="83" y="424" width="208" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Siguiente"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="24"/>
+                                <state key="normal" title="Siguiente" backgroundImage="Botones_Boton"/>
                                 <connections>
                                     <action selector="sigFormula:" destination="iC1-MM-Kw8" eventType="touchUpInside" id="d0L-Ln-d9R"/>
                                 </connections>
@@ -151,14 +207,20 @@
                                 <color key="backgroundColor" red="0.89435998482477297" green="0.98535839557006599" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dim-nj-3J6">
-                                <rect key="frame" x="97" y="193" width="180" height="21"/>
+                                <rect key="frame" x="16" y="213" width="343" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Tiza" family="Tiza" pointSize="14"/>
+                                <color key="textColor" red="0.65490196079999996" green="0.91764705879999997" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.15294117647058825" green="0.16470588235294117" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1bh-9F-Uaf" firstAttribute="bottom" secondItem="Efi-DY-WAs" secondAttribute="bottom" id="GQA-uy-Zhe"/>
+                            <constraint firstItem="Efi-DY-WAs" firstAttribute="top" secondItem="1bh-9F-Uaf" secondAttribute="top" id="pNL-69-Xk1"/>
+                            <constraint firstItem="Efi-DY-WAs" firstAttribute="leading" secondItem="1bh-9F-Uaf" secondAttribute="leading" id="xWP-4Z-4N3"/>
+                            <constraint firstItem="1bh-9F-Uaf" firstAttribute="trailing" secondItem="Efi-DY-WAs" secondAttribute="trailing" id="y8g-tk-uD6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="1bh-9F-Uaf"/>
                     </view>
                     <navigationItem key="navigationItem" id="dP0-t8-xFQ"/>
@@ -176,4 +238,11 @@
             <point key="canvasLocation" x="900" y="119.1904047976012"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="Atom" width="134" height="141"/>
+        <image name="Books" width="144" height="146"/>
+        <image name="Botones_Boton" width="2080" height="993"/>
+        <image name="chalkboard" width="1943" height="2400"/>
+    </resources>
 </document>

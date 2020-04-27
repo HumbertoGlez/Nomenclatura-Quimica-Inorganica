@@ -64,6 +64,7 @@ class GameViewController: ViewController {
     */
     @IBAction func sigFormula(_ sender: Any) {
         tfRespuesta.text = ""
+        lbMensaje.text = ""
         intentoHecho = false
         nFormula = Int.random(in: 0 ..< 30)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
@@ -94,6 +95,24 @@ class GameViewController: ViewController {
                 audioPlayer.play()
             }
             // show correct message
+            // hexcode for color: A7EA4F
+            let r, g, b, a: CGFloat
+            let scanner = Scanner(string: "A7EA4FFF")
+            var hexNumber: UInt64 = 0
+
+            if scanner.scanHexInt64(&hexNumber) {
+                r = CGFloat((hexNumber & 0xff000000) >> 24) / 255
+                g = CGFloat((hexNumber & 0x00ff0000) >> 16) / 255
+                b = CGFloat((hexNumber & 0x0000ff00) >> 8) / 255
+                a = CGFloat(hexNumber & 0x000000ff) / 255
+            }
+            else {
+                r = 1
+                g = 1
+                b = 1
+                a = 1
+            }
+            lbMensaje.textColor = UIColor.init(red: r, green: g, blue: b, alpha: a)
             lbMensaje.text = "Respuesta correcta"
             // update score
             if !intentoHecho {
@@ -111,6 +130,7 @@ class GameViewController: ViewController {
                 audioPlayer.play()
             }
             // show wrong message
+            lbMensaje.textColor = UIColor.red
             lbMensaje.text = "Respuesta incorrecta"
         }
         intentoHecho = true
