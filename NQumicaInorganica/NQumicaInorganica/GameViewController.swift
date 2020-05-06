@@ -37,7 +37,7 @@ class GameViewController: ViewController {
 
         // Do any additional setup after loading the view.
         arrDiccionarios = NSArray(contentsOfFile: path!)
-        nFormula = Int.random(in: 0 ..< 20)
+        nFormula = Int.random(in: 0 ..< arrDiccionarios.count)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
         nombresFormula = dic["Nombres"] as? [String]
@@ -73,7 +73,7 @@ class GameViewController: ViewController {
         tfRespuesta.text = ""
         lbMensaje.text = ""
         intentoHecho = false
-        nFormula = Int.random(in: 0 ..< 30)
+        nFormula = Int.random(in: 0 ..< arrDiccionarios.count)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
         nombresFormula = dic["Nombres"] as? [String]
@@ -89,7 +89,6 @@ class GameViewController: ViewController {
             intentos = intentos + 1
         }
         let respuesta = tfRespuesta.text!
-        print(respuesta.lowercased())
         if nombresFormula.contains(respuesta.lowercased()) {
             // Play correct sound
             if let correctSound = NSDataAsset(name: "correctSnd") {
@@ -151,7 +150,7 @@ class GameViewController: ViewController {
         // Deshabilita el campo de texto
         tfRespuesta.isEnabled = false
         // Muestra la respuesta en el campo de texto
-        tfRespuesta.text = nombresFormula[0]
+        tfRespuesta.text = nombresFormula.randomElement()
         // Si no se ha hecho intento, se calcula como incorrecta
         if !intentoHecho {
             intentos = intentos + 1
