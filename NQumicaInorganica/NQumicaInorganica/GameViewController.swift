@@ -52,6 +52,13 @@ class GameViewController: ViewController {
         lbPorcentaje.text = "= 0%"
     }
     
+    func calculaPuntuacion() {
+        let porcentaje = Double(correctas) / Double(intentos) * 100
+        
+        lbCorrectas.attributedText = NSAttributedString(string: "\(correctas)", attributes: [.underlineStyle: NSUnderlineStyle.single.rawValue])
+        lbIntentos.text = "\(intentos)"
+        lbPorcentaje.text = "= \(Int(porcentaje.rounded()))%"
+    }
 
     /*
     // MARK: - Navigation
@@ -133,13 +140,23 @@ class GameViewController: ViewController {
             lbMensaje.textColor = UIColor.red
             lbMensaje.text = "Respuesta incorrecta"
         }
-        intentoHecho = true
-        
-        let porcentaje = Double(correctas) / Double(intentos) * 100
-        
-        lbCorrectas.attributedText = NSAttributedString(string: "\(correctas)", attributes: [.underlineStyle: NSUnderlineStyle.single.rawValue])
-        lbIntentos.text = "\(intentos)"
-        lbPorcentaje.text = "= \(Int(porcentaje.rounded()))%"
+        // solo nos interesa recalcular la puntuacion en el primer intento
+        if !intentoHecho {
+            intentoHecho = true
+            calculaPuntuacion()
+        }
     }
     
+    @IBAction func mostrarRespuesta(_ sender: UIButton) {
+        // Deshabilita el campo de texto
+        tfRespuesta.isEnabled = false
+        // Muestra la respuesta en el campo de texto
+        tfRespuesta.text = nombresFormula[0]
+        // Si no se ha hecho intento, se calcula como incorrecta
+        if !intentoHecho {
+            intentos = intentos + 1
+            calculaPuntuacion()
+        }
+        
+    }
 }

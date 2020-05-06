@@ -161,6 +161,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="24"/>
                                 <state key="normal" title="Mostrar Respuesta" backgroundImage="Botones_Boton"/>
+                                <connections>
+                                    <action selector="mostrarRespuesta:" destination="iC1-MM-Kw8" eventType="touchUpInside" id="RHb-6K-otQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gee-Ir-Euy">
                                 <rect key="frame" x="83" y="424" width="208" height="50"/>
