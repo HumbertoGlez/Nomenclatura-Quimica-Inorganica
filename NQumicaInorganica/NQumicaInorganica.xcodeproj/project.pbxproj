@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0EB16D9E2450EFC700CE5353 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB16D9D2450EFC700CE5353 /* GameViewController.swift */; };
 		0EB16DA02450EFDD00CE5353 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */; };
+		E38F477624630C4000AA1293 /* chemistry.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E38F477524630C4000AA1293 /* chemistry.ttf */; };
+		E38F477824630C9E00AA1293 /* tiza.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E38F477724630C9E00AA1293 /* tiza.ttf */; };
 		E391024E2450B403001C28EC /* CompuestosBinariosIonicos.plist in Resources */ = {isa = PBXBuildFile; fileRef = E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */; };
-		E394322D24575C71004FC8E2 /* tiza.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E394322C24575C71004FC8E2 /* tiza.ttf */; };
-		E394322F24576887004FC8E2 /* chemistry.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E394322E24576887004FC8E2 /* chemistry.ttf */; };
 		E3971576244DECE9005A239B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971575244DECE9005A239B /* AppDelegate.swift */; };
 		E3971578244DECE9005A239B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971577244DECE9005A239B /* SceneDelegate.swift */; };
 		E397157A244DECE9005A239B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3971579244DECE9005A239B /* ViewController.swift */; };
@@ -23,9 +23,9 @@
 /* Begin PBXFileReference section */
 		0EB16D9D2450EFC700CE5353 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		E38F477524630C4000AA1293 /* chemistry.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chemistry.ttf; sourceTree = "<group>"; };
+		E38F477724630C9E00AA1293 /* tiza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiza.ttf; sourceTree = "<group>"; };
 		E391024D2450B403001C28EC /* CompuestosBinariosIonicos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = CompuestosBinariosIonicos.plist; sourceTree = "<group>"; };
-		E394322C24575C71004FC8E2 /* tiza.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = tiza.ttf; path = ../../../../../../../Downloads/tiza.ttf; sourceTree = "<group>"; };
-		E394322E24576887004FC8E2 /* chemistry.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = chemistry.ttf; path = ../../../../../../../Downloads/chemistry.ttf; sourceTree = "<group>"; };
 		E3971572244DECE9005A239B /* NQumicaInorganica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NQumicaInorganica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3971575244DECE9005A239B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3971577244DECE9005A239B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,8 +50,8 @@
 		E394322924575ACF004FC8E2 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				E394322E24576887004FC8E2 /* chemistry.ttf */,
-				E394322C24575C71004FC8E2 /* tiza.ttf */,
+				E38F477724630C9E00AA1293 /* tiza.ttf */,
+				E38F477524630C4000AA1293 /* chemistry.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -149,10 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3971582244DECFB005A239B /* LaunchScreen.storyboard in Resources */,
-				E394322D24575C71004FC8E2 /* tiza.ttf in Resources */,
 				E397157F244DECFB005A239B /* Assets.xcassets in Resources */,
-				E394322F24576887004FC8E2 /* chemistry.ttf in Resources */,
+				E38F477624630C4000AA1293 /* chemistry.ttf in Resources */,
 				E391024E2450B403001C28EC /* CompuestosBinariosIonicos.plist in Resources */,
+				E38F477824630C9E00AA1293 /* tiza.ttf in Resources */,
 				E397157D244DECE9005A239B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
