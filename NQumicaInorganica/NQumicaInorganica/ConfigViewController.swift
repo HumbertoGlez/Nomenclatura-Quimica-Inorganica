@@ -10,6 +10,11 @@ import UIKit
 
 class ConfigViewController: ViewController {
 
+    @IBOutlet weak var swAcidos: UISwitch!
+    @IBOutlet weak var swIbin: UISwitch!
+    @IBOutlet weak var swIPoli: UISwitch!
+    @IBOutlet weak var swMol: UISwitch!
+    @IBOutlet weak var swCVar: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,5 +31,7 @@ class ConfigViewController: ViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func btGuardar(_ sender: Any) {
+    }
+    
 }
