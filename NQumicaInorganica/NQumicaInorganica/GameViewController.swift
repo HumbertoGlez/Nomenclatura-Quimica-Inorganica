@@ -37,19 +37,24 @@ class GameViewController: ViewController {
 
         // Do any additional setup after loading the view.
         arrDiccionarios = NSArray(contentsOfFile: path!)
+        obtieneCompuesto()
+        
+        // Agrega valores al puntuaje
+        lbCorrectas.attributedText = NSAttributedString(string: "0", attributes: [.underlineStyle: NSUnderlineStyle.single.rawValue])
+        lbIntentos.text = "0"
+        lbPorcentaje.text = "= 0%"
+    }
+    
+    func obtieneCompuesto() {
         nFormula = Int.random(in: 0 ..< arrDiccionarios.count)
         let dic = arrDiccionarios[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
         nombresFormula = dic["Nombres"] as? [String]
         // Convierte los nombres a Minusculas
         nombresFormula = nombresFormula.map{$0.map{$0.lowercased()}}
-        // For debug purposes
+        // For debug purposes, comment when not needed
         print(nombresFormula!)
-        
-        // Agrega valores al puntuaje
-        lbCorrectas.attributedText = NSAttributedString(string: "0", attributes: [.underlineStyle: NSUnderlineStyle.single.rawValue])
-        lbIntentos.text = "0"
-        lbPorcentaje.text = "= 0%"
+        //tfRespuesta.text = nombresFormula[0]
     }
     
     func calculaPuntuacion() {
@@ -70,18 +75,11 @@ class GameViewController: ViewController {
     }
     */
     @IBAction func sigFormula(_ sender: Any) {
+        tfRespuesta.isEnabled = true
         tfRespuesta.text = ""
         lbMensaje.text = ""
         intentoHecho = false
-        nFormula = Int.random(in: 0 ..< arrDiccionarios.count)
-        let dic = arrDiccionarios[nFormula] as! NSDictionary
-        lbFormula.text = dic["Formula"] as? String
-        nombresFormula = dic["Nombres"] as? [String]
-        // Convierte los nombres a Minusculas
-        nombresFormula = nombresFormula.map{$0.map{$0.lowercased()}}
-        // For debug purposes, comment when not needed
-        print(nombresFormula!)
-        //tfRespuesta.text = nombresFormula[0]
+        obtieneCompuesto()
     }
     
     @IBAction func verificarRespuesta(_ sender: UIButton) {
