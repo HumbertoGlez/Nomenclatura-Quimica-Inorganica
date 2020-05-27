@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>Formula</key>
+        <string>H₃P</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido fosfhídrico</string>
+            <string>acido fosfhidrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₂S</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido sulfhídrico</string>
+            <string>acido sulfhidrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HF</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido fluorhídrico</string>
+            <string>acido fluorhidrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HCl</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido clorhídrico</string>
+            <string>acido clorhidrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HBr</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido bromídrico</string>
+            <string>acido bromidrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HI</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido yodhídrico</string>
+            <string>acido yodhidrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HClO</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido hipocloroso</string>
+            <string>acido hipocloroso</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HClO₂</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido cloroso</string>
+            <string>acido cloroso</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HClO₃</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido clórico</string>
+            <string>acido clorico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HClO₄</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido perclórico</string>
+            <string>acido perclorico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HNO₃</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido nítrico</string>
+            <string>acido nitrico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HNO₂</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido nitroso</string>
+            <string>acido nitroso</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₂CO₃</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido carbónico</string>
+            <string>acido carbonico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₂SO₃</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido sulfuroso</string>
+            <string>acido sulfuroso</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₂SO₄</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido sulfúrico</string>
+            <string>acido sulfurico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₃PO₃</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido fosforoso</string>
+            <string>acido fosforoso</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₃PO₄</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido fosfórico</string>
+            <string>acido fosforico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₂CrO₄</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido crómico</string>
+            <string>acido cromico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>H₂Cr₂O₇</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido percrómico</string>
+            <string>acido percromico</string>
+        </array>
+    <dict>
+        <key>Formula</key>
+        <string>HMnO₄</string>
+        <key>Nombres</key>
+        <array>
+            <string>ácido permangánico</string>
+            <string>acido permanganico</string>
+        </array>
+</array>
+</plist>
