@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>Formula</key>
-		<string>Na2O</string>
+		<string>Na₂O</string>
 		<key>Nombres</key>
 		<array>
 			<string>óxido de sodio</string>
@@ -27,7 +27,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>SnO2</string>
+		<string>SnO₂</string>
 		<key>Nombres</key>
 		<array>
 			<string>óxido de estaño (IV)</string>
@@ -57,7 +57,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>Fe2O3</string>
+		<string>Fe₂O₃</string>
 		<key>Nombres</key>
 		<array>
 			<string>óxido de hierro (III)</string>
@@ -73,7 +73,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>Cu2O</string>
+		<string>Cu₂O</string>
 		<key>Nombres</key>
 		<array>
 			<string>óxido de cobre (I)</string>
@@ -131,7 +131,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>AlH3</string>
+		<string>AlH₃</string>
 		<key>Nombres</key>
 		<array>
 			<string>hidruro de aluminio</string>
@@ -147,7 +147,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>CaH2</string>
+		<string>CaH₂</string>
 		<key>Nombres</key>
 		<array>
 			<string>hidruro de calcio</string>
@@ -155,7 +155,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>SrH2</string>
+		<string>SrH₂</string>
 		<key>Nombres</key>
 		<array>
 			<string>hidruro de estroncio</string>
@@ -163,7 +163,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>MgH2</string>
+		<string>MgH₂</string>
 		<key>Nombres</key>
 		<array>
 			<string>hidruro de magnesio</string>
@@ -179,7 +179,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>FeCl2</string>
+		<string>FeCl₂</string>
 		<key>Nombres</key>
 		<array>
 			<string>cloruro de hierro (II)</string>
@@ -189,7 +189,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>Au2S3</string>
+		<string>Au₂S₃</string>
 		<key>Nombres</key>
 		<array>
 			<string>sulfuro de oro (III)</string>
@@ -201,7 +201,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>MgBr2</string>
+		<string>MgBr₂</string>
 		<key>Nombres</key>
 		<array>
 			<string>bromuro de magnesio</string>
@@ -218,7 +218,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>Li2Se</string>
+		<string>Li₂Se</string>
 		<key>Nombres</key>
 		<array>
 			<string>seleniuro de litio</string>
@@ -226,7 +226,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>Li2S</string>
+		<string>Li₂S</string>
 		<key>Nombres</key>
 		<array>
 			<string>sulfuro de litio</string>
@@ -270,7 +270,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>Ag2S</string>
+		<string>Ag₂S</string>
 		<key>Nombres</key>
 		<array>
 			<string>sulfuro de plata</string>
@@ -278,7 +278,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>BCl3</string>
+		<string>BCl₃</string>
 		<key>Nombres</key>
 		<array>
 			<string>cloruro de boro</string>
@@ -287,7 +287,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>BF3</string>
+		<string>BF₃</string>
 		<key>Nombres</key>
 		<array>
 			<string>fluoruro de boro</string>
@@ -296,7 +296,7 @@
 	</dict>
 	<dict>
 		<key>Formula</key>
-		<string>AlCl3</string>
+		<string>AlCl₃</string>
 		<key>Nombres</key>
 		<array>
 			<string>cloruro de aluminio</string>
