@@ -65,8 +65,10 @@ class GameViewController: ViewController {
             archivos = ["Acidos", "CompuestosBinariosIonicos", "CompuestosMolecularesInorganicos", "CompuestosIonicosPoliatomicos"]
         }
         for archivo in archivos {
+            print(archivo)
             let path = Bundle.main.path(forResource: archivo, ofType: "plist")
             arrDiccionarios = arrDiccionarios.adding(NSArray(contentsOfFile: path!)!) as NSArray
+            print(arrDiccionarios)
         }
         
         print(arrDiccionarios)
