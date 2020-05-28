@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>Item 0</key>
+<array>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -14,7 +13,6 @@
 		<key>Formula</key>
 		<string>H₃P</string>
 	</dict>
-	<key>Item 1</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -26,7 +24,6 @@
 		<key>Formula</key>
 		<string>H₂S</string>
 	</dict>
-	<key>Item 2</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -38,7 +35,6 @@
 		<key>Formula</key>
 		<string>HF</string>
 	</dict>
-	<key>Item 3</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -50,7 +46,6 @@
 		<key>Formula</key>
 		<string>HCl</string>
 	</dict>
-	<key>Item 4</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -62,7 +57,6 @@
 		<key>Formula</key>
 		<string>HBr</string>
 	</dict>
-	<key>Item 5</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -74,7 +68,6 @@
 		<key>Formula</key>
 		<string>HI</string>
 	</dict>
-	<key>Item 6</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -84,7 +77,6 @@
 		<key>Formula</key>
 		<string>HClO</string>
 	</dict>
-	<key>Item 7</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -94,7 +86,6 @@
 		<key>Formula</key>
 		<string>HClO₂</string>
 	</dict>
-	<key>Item 8</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -106,7 +97,6 @@
 		<key>Formula</key>
 		<string>HClO₃</string>
 	</dict>
-	<key>Item 9</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -118,7 +108,6 @@
 		<key>Formula</key>
 		<string>HClO₄</string>
 	</dict>
-	<key>Item 10</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -130,7 +119,6 @@
 		<key>Formula</key>
 		<string>HNO₃</string>
 	</dict>
-	<key>Item 11</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -140,7 +128,6 @@
 		<key>Formula</key>
 		<string>HNO₂</string>
 	</dict>
-	<key>Item 12</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -152,7 +139,6 @@
 		<key>Formula</key>
 		<string>H₂CO₃</string>
 	</dict>
-	<key>Item 13</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -162,7 +148,6 @@
 		<key>Formula</key>
 		<string>H₂SO₃</string>
 	</dict>
-	<key>Item 14</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -174,7 +159,6 @@
 		<key>Formula</key>
 		<string>H₂SO₄</string>
 	</dict>
-	<key>Item 15</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -184,7 +168,6 @@
 		<key>Formula</key>
 		<string>H₃PO₃</string>
 	</dict>
-	<key>Item 16</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -196,7 +179,6 @@
 		<key>Formula</key>
 		<string>H₃PO₄</string>
 	</dict>
-	<key>Item 17</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -208,7 +190,6 @@
 		<key>Formula</key>
 		<string>H₂CrO₄</string>
 	</dict>
-	<key>Item 18</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -220,7 +201,6 @@
 		<key>Formula</key>
 		<string>H₂Cr₂O₇</string>
 	</dict>
-	<key>Item 19</key>
 	<dict>
 		<key>Nombres</key>
 		<array>
@@ -232,5 +212,5 @@
 		<key>Formula</key>
 		<string>HMnO₄</string>
 	</dict>
-</dict>
+</array>
 </plist>
