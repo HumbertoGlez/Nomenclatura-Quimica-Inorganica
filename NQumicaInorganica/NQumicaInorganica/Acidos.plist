@@ -10,6 +10,7 @@
             <string>ácido fosfhídrico</string>
             <string>acido fosfhidrico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₂S</string>
@@ -18,6 +19,8 @@
             <string>ácido sulfhídrico</string>
             <string>acido sulfhidrico</string>
         </array>
+    </dict>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HF</string>
@@ -26,6 +29,7 @@
             <string>ácido fluorhídrico</string>
             <string>acido fluorhidrico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HCl</string>
@@ -34,6 +38,7 @@
             <string>ácido clorhídrico</string>
             <string>acido clorhidrico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HBr</string>
@@ -42,6 +47,7 @@
             <string>ácido bromídrico</string>
             <string>acido bromidrico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HI</string>
@@ -50,6 +56,7 @@
             <string>ácido yodhídrico</string>
             <string>acido yodhidrico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HClO</string>
@@ -58,6 +65,7 @@
             <string>ácido hipocloroso</string>
             <string>acido hipocloroso</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HClO₂</string>
@@ -66,6 +74,7 @@
             <string>ácido cloroso</string>
             <string>acido cloroso</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HClO₃</string>
@@ -74,6 +83,7 @@
             <string>ácido clórico</string>
             <string>acido clorico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HClO₄</string>
@@ -82,6 +92,7 @@
             <string>ácido perclórico</string>
             <string>acido perclorico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HNO₃</string>
@@ -90,6 +101,7 @@
             <string>ácido nítrico</string>
             <string>acido nitrico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HNO₂</string>
@@ -98,6 +110,7 @@
             <string>ácido nitroso</string>
             <string>acido nitroso</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₂CO₃</string>
@@ -106,6 +119,7 @@
             <string>ácido carbónico</string>
             <string>acido carbonico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₂SO₃</string>
@@ -114,6 +128,7 @@
             <string>ácido sulfuroso</string>
             <string>acido sulfuroso</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₂SO₄</string>
@@ -122,6 +137,7 @@
             <string>ácido sulfúrico</string>
             <string>acido sulfurico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₃PO₃</string>
@@ -130,6 +146,7 @@
             <string>ácido fosforoso</string>
             <string>acido fosforoso</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₃PO₄</string>
@@ -138,6 +155,7 @@
             <string>ácido fosfórico</string>
             <string>acido fosforico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₂CrO₄</string>
@@ -146,6 +164,7 @@
             <string>ácido crómico</string>
             <string>acido cromico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>H₂Cr₂O₇</string>
@@ -154,6 +173,7 @@
             <string>ácido percrómico</string>
             <string>acido percromico</string>
         </array>
+    </dict>
     <dict>
         <key>Formula</key>
         <string>HMnO₄</string>
@@ -162,5 +182,7 @@
             <string>ácido permangánico</string>
             <string>acido permanganico</string>
         </array>
+    </dict>
 </array>
+    </dict>
 </plist>
