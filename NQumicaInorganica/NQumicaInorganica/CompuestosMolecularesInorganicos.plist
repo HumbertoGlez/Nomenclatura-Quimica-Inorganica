@@ -18,7 +18,7 @@
 			<string>dióxido de carbono</string>
 		</array>
 		<key>Formula</key>
-		<string>CO2</string>
+		<string>CO₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -27,7 +27,7 @@
 			<string>dioxido de azufre</string>
 		</array>
 		<key>Formula</key>
-		<string>SO2</string>
+		<string>SO₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -36,7 +36,7 @@
 			<string>trióxido de azufre</string>
 		</array>
 		<key>Formula</key>
-		<string>SO3</string>
+		<string>SO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -44,7 +44,7 @@
 			<string>hexafluoruro de azufre</string>
 		</array>
 		<key>Formula</key>
-		<string>SF6</string>
+		<string>SF₆</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -52,7 +52,7 @@
 			<string>disulfuro de carbono</string>
 		</array>
 		<key>Formula</key>
-		<string>CS2</string>
+		<string>CS₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -60,7 +60,7 @@
 			<string>tetracloruro de carbono</string>
 		</array>
 		<key>Formula</key>
-		<string>CCl4</string>
+		<string>CCl₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -69,7 +69,7 @@
 			<string>tricloruro de nitrogeno</string>
 		</array>
 		<key>Formula</key>
-		<string>NCl3</string>
+		<string>NCl₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -78,7 +78,7 @@
 			<string>pentabromuro de fosforo</string>
 		</array>
 		<key>Formula</key>
-		<string>PBr5</string>
+		<string>PBr₅</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -87,7 +87,7 @@
 			<string>tricloruro de nitrogeno</string>
 		</array>
 		<key>Formula</key>
-		<string>NCl3</string>
+		<string>NCl₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -98,7 +98,7 @@
 			<string>tetróxido de dinitrogeno</string>
 		</array>
 		<key>Formula</key>
-		<string>N2O4</string>
+		<string>N₂O₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -109,7 +109,7 @@
 			<string>pentoxido de dinitrogeno</string>
 		</array>
 		<key>Formula</key>
-		<string>N2O5</string>
+		<string>N₂O₅</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -117,7 +117,7 @@
 			<string>heptafluoruro de yodo</string>
 		</array>
 		<key>Formula</key>
-		<string>IF7</string>
+		<string>IF₇</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -126,7 +126,7 @@
 			<string>pentafluoruro de fosforo</string>
 		</array>
 		<key>Formula</key>
-		<string>PF5</string>
+		<string>PF₅</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -134,7 +134,7 @@
 			<string>tricloruro de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>BCl3</string>
+		<string>BCl₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -145,7 +145,7 @@
 			<string>decaoxido de tetrafosforo</string>
 		</array>
 		<key>Formula</key>
-		<string>P4O10</string>
+		<string>P₄O10</string>
 	</dict>
 </array>
 </plist>
