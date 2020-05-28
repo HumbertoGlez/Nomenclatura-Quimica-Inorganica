@@ -1,14 +1,342 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   CompuestosIonicosPoliatomicos.plist
-   NQumicaInorganica
-
-   Created by Melba Consuelos on 28/05/20.
-   Copyright (c) 2020 Humberto Gonzalez Sanchez. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidróxido de amonio</string>
+			<string>hidroxido de amonio</string>
+		</array>
+		<key>Formula</key>
+		<string>NH4OH</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de amonio</string>
+		</array>
+		<key>Formula</key>
+		<string>NH4ClO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrato de amonio</string>
+		</array>
+		<key>Formula</key>
+		<string>NH4NO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>carbonato de amonio</string>
+		</array>
+		<key>Formula</key>
+		<string>(NH4)2CO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfato de amonio</string>
+		</array>
+		<key>Formula</key>
+		<string>(NH4)2SO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>fosfato de amonio</string>
+		</array>
+		<key>Formula</key>
+		<string>(NH4)3PO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidróxido de litio</string>
+			<string>hidroxido de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>LiOH</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>LiClO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrato de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>LiNO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>carbonato de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>Li2CO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfito de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>Li2SO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfato de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>Li2SO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>fosfato de litio</string>
+		</array>
+		<key>Formula</key>
+		<string>Li3PO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidroxido de berilio</string>
+			<string>hidróxido de berilio</string>
+		</array>
+		<key>Formula</key>
+		<string>Be(OH)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de berilio</string>
+		</array>
+		<key>Formula</key>
+		<string>Be(ClO3)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrato de berilio</string>
+		</array>
+		<key>Formula</key>
+		<string>Be(NO3)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>carbonato de berilio</string>
+		</array>
+		<key>Formula</key>
+		<string>BeCO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfato de berilio</string>
+		</array>
+		<key>Formula</key>
+		<string>BeSO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>Fosfato de berilio</string>
+		</array>
+		<key>Formula</key>
+		<string>Be3(PO4)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidróxido de boro</string>
+			<string>hidroxido de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>B(OH)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>B(ClO3)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrato de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>B(NO3)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrito de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>B(NO2)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>carbonato de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>B2(CO3)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfato de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>B2(SO4)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>fosfato de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>BPO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidróxido de cobre i</string>
+			<string>hidroxido de cobre i</string>
+		</array>
+		<key>Formula</key>
+		<string>CuOH</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidroxido de cobre ii</string>
+			<string>hidróxido de cobre ii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu(OH)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de cobre i</string>
+		</array>
+		<key>Formula</key>
+		<string>CuClO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de cobre ii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu(ClO3)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrato de cobre i</string>
+		</array>
+		<key>Formula</key>
+		<string>CuNO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>nitrato de cobre ii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu(NO3)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>carbonato de cobre i</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu2CO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>carbonato de cobre ii</string>
+		</array>
+		<key>Formula</key>
+		<string>CuCO3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfato de cobre i</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu2SO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>sulfato de cobre ii</string>
+		</array>
+		<key>Formula</key>
+		<string>CuSO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>fosfato de cobre i</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu3PO4</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>fosfato de cobre ii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cu3(PO4)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidroxido de cromo ii</string>
+			<string>hidróxido de cromo ii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cr(OH)2</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hidroxido de cromo iii</string>
+			<string>hidróxido de cromo iii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cr(OH)3</string>
+	</dict>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>clorato de cromo ii</string>
+		</array>
+		<key>Formula</key>
+		<string>Cr(ClO3)2</string>
+	</dict>
+</array>
 </plist>
