@@ -21,22 +21,26 @@ class GameViewController: ViewController {
     
     
     //Variables
-    var arrDiccionarios : NSArray!
+    var arrDiccionarios = NSArray()
     var nFormula : Int!
-    let path = Bundle.main.path(forResource: "CompuestosBinariosIonicos", ofType: "plist")
+    var ntipo: Int!
+    let path = Bundle.main.path(forResource: "Acidos", ofType: "plist")
     var nombresFormula: [String]!
     var intentos = 0
     var correctas = 0
     // El usurario ya hizo un intento para el compuesto actual
     var intentoHecho = false
     var audioPlayer: AVAudioPlayer!
+    var archivos: [String]!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        arrDiccionarios = NSArray(contentsOfFile: path!)
+//        arrDiccionarios = NSArray(contentsOfFile: path!)
+//        getDicts()
+        obtenerConfiguracion()
         obtieneCompuesto()
         
         // Agrega valores al puntuaje
@@ -45,9 +49,33 @@ class GameViewController: ViewController {
         lbPorcentaje.text = "= 0%"
     }
     
+    func dataFileURL() -> URL {
+        let url = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
+        let pathArchivo = url.appendingPathComponent("configuracion.plist")
+        print(pathArchivo.path)
+        return pathArchivo
+    }
+    
+    func obtenerConfiguracion() {
+        do {
+            let data = try Data.init(contentsOf: dataFileURL())
+            archivos = try PropertyListDecoder().decode([String].self, from: data)
+        }
+        catch {
+            archivos = ["Acidos", "CompuestosBinariosIonicos", "CompuestosMolecularesInorganicos", "CompuestosIonicosPoliatomicos", "cVar"]
+        }
+        for archivo in archivos {
+            let path = Bundle.main.path(forResource: archivo, ofType: "plist")
+            arrDiccionarios = arrDiccionarios.adding(NSArray(contentsOfFile: path!)!) as NSArray
+        }
+        
+        print(arrDiccionarios)
+    }
+    
     func obtieneCompuesto() {
-        nFormula = Int.random(in: 0 ..< arrDiccionarios.count)
-        let dic = arrDiccionarios[nFormula] as! NSDictionary
+        ntipo = Int.random(in: 0 ..< arrDiccionarios.count)
+        nFormula = Int.random(in: 0 ..< (arrDiccionarios[ntipo] as! NSArray).count)
+        let dic = (arrDiccionarios[ntipo] as! NSArray)[nFormula] as! NSDictionary
         lbFormula.text = dic["Formula"] as? String
         nombresFormula = dic["Nombres"] as? [String]
         // Convierte los nombres a Minusculas

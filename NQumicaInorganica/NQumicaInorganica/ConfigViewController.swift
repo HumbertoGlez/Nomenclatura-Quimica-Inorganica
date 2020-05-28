@@ -47,13 +47,13 @@ class ConfigViewController: ViewController {
             if !lista.contains("Acidos") {
                 swAcidos.isOn = false
             }
-            if !lista.contains("Ibin") {
+            if !lista.contains("CompuestosBinariosIonicos") {
                 swIbin.isOn = false
             }
-            if !lista.contains("IPoli") {
+            if !lista.contains("CompuestosIonicosPoliatomicos") {
                 swIPoli.isOn = false
             }
-            if !lista.contains("Mol") {
+            if !lista.contains("CompuestosMolecularesInorganicos") {
                 swMol.isOn = false
             }
             if !lista.contains("CVar") {
@@ -80,13 +80,13 @@ class ConfigViewController: ViewController {
             lista.append("Acidos")
         }
         if swIbin.isOn {
-            lista.append("Ibin")
+            lista.append("CompuestosBinariosIonicos")
         }
         if swIPoli.isOn {
-            lista.append("IPoli")
+            lista.append("CompuestosIonicosPoliatomicos")
         }
         if swMol.isOn {
-            lista.append("Mol")
+            lista.append("CompuestosMolecularesInorganicos")
         }
         if swCVar.isOn {
             lista.append("CVar")
