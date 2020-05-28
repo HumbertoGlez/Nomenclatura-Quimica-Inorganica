@@ -12,7 +12,7 @@
 			<string>ácido fosfhídrico</string>
 		</array>
 		<key>Formula</key>
-		<string>H3P</string>
+		<string>H₃P</string>
 	</dict>
 	<key>Item 1</key>
 	<dict>
@@ -24,7 +24,7 @@
 			<string>acido sulfhidrico</string>
 		</array>
 		<key>Formula</key>
-		<string>H2S</string>
+		<string>H₂S</string>
 	</dict>
 	<key>Item 2</key>
 	<dict>
@@ -92,7 +92,7 @@
 			<string>acido cloroso</string>
 		</array>
 		<key>Formula</key>
-		<string>HClO2</string>
+		<string>HClO₂</string>
 	</dict>
 	<key>Item 8</key>
 	<dict>
@@ -104,7 +104,7 @@
 			<string>ácido clorico</string>
 		</array>
 		<key>Formula</key>
-		<string>HClO3</string>
+		<string>HClO₃</string>
 	</dict>
 	<key>Item 9</key>
 	<dict>
@@ -116,7 +116,7 @@
 			<string>acido perclorico</string>
 		</array>
 		<key>Formula</key>
-		<string>HClO4</string>
+		<string>HClO₄</string>
 	</dict>
 	<key>Item 10</key>
 	<dict>
@@ -128,7 +128,7 @@
 			<string>acido nitrico</string>
 		</array>
 		<key>Formula</key>
-		<string>HNO3</string>
+		<string>HNO₃</string>
 	</dict>
 	<key>Item 11</key>
 	<dict>
@@ -138,7 +138,7 @@
 			<string>acido nitroso</string>
 		</array>
 		<key>Formula</key>
-		<string>HNO2</string>
+		<string>HNO₂</string>
 	</dict>
 	<key>Item 12</key>
 	<dict>
@@ -150,7 +150,7 @@
 			<string>acido carbonico</string>
 		</array>
 		<key>Formula</key>
-		<string>H2CO3</string>
+		<string>H₂CO₃</string>
 	</dict>
 	<key>Item 13</key>
 	<dict>
@@ -160,7 +160,7 @@
 			<string>acido sulfuroso</string>
 		</array>
 		<key>Formula</key>
-		<string>H2SO3</string>
+		<string>H₂SO₃</string>
 	</dict>
 	<key>Item 14</key>
 	<dict>
@@ -172,7 +172,7 @@
 			<string>acido sulfurico</string>
 		</array>
 		<key>Formula</key>
-		<string>H2SO4</string>
+		<string>H₂SO₄</string>
 	</dict>
 	<key>Item 15</key>
 	<dict>
@@ -182,7 +182,7 @@
 			<string>acido fosforoso</string>
 		</array>
 		<key>Formula</key>
-		<string>H3PO3</string>
+		<string>H₃PO₃</string>
 	</dict>
 	<key>Item 16</key>
 	<dict>
@@ -194,7 +194,7 @@
 			<string>acido fosforico</string>
 		</array>
 		<key>Formula</key>
-		<string>H3PO4</string>
+		<string>H₃PO₄</string>
 	</dict>
 	<key>Item 17</key>
 	<dict>
@@ -206,7 +206,7 @@
 			<string>acido cromico</string>
 		</array>
 		<key>Formula</key>
-		<string>H2CrO4</string>
+		<string>H₂CrO₄</string>
 	</dict>
 	<key>Item 18</key>
 	<dict>
@@ -218,7 +218,7 @@
 			<string>acido percromico</string>
 		</array>
 		<key>Formula</key>
-		<string>H2Cr2O7</string>
+		<string>H₂Cr₂O₇</string>
 	</dict>
 	<key>Item 19</key>
 	<dict>
@@ -230,7 +230,7 @@
 			<string>acido permanganico</string>
 		</array>
 		<key>Formula</key>
-		<string>HMnO4</string>
+		<string>HMnO₄</string>
 	</dict>
 </dict>
 </plist>
