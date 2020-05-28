@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0EB16D9E2450EFC700CE5353 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB16D9D2450EFC700CE5353 /* GameViewController.swift */; };
 		0EB16DA02450EFDD00CE5353 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */; };
+		0EFAD3E8247F942F003D01C4 /* CompuestosIonicosPoliatomicos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EFAD3E7247F942F003D01C4 /* CompuestosIonicosPoliatomicos.plist */; };
 		A5B1A31E247F83E8006C9340 /* Acidos.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B1A31D247F83E8006C9340 /* Acidos.plist */; };
 		A5B1A320247F868A006C9340 /* CompuestosMolecularesInorganicos.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B1A31F247F868A006C9340 /* CompuestosMolecularesInorganicos.plist */; };
 		E38F477624630C4000AA1293 /* chemistry.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E38F477524630C4000AA1293 /* chemistry.ttf */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0EB16D9D2450EFC700CE5353 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		0EB16D9F2450EFDD00CE5353 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		0EFAD3E7247F942F003D01C4 /* CompuestosIonicosPoliatomicos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CompuestosIonicosPoliatomicos.plist; sourceTree = "<group>"; };
 		A5B1A31D247F83E8006C9340 /* Acidos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Acidos.plist; sourceTree = "<group>"; };
 		A5B1A31F247F868A006C9340 /* CompuestosMolecularesInorganicos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CompuestosMolecularesInorganicos.plist; sourceTree = "<group>"; };
 		E38F477524630C4000AA1293 /* chemistry.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chemistry.ttf; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				0EB16D9D2450EFC700CE5353 /* GameViewController.swift */,
 				A5B1A31F247F868A006C9340 /* CompuestosMolecularesInorganicos.plist */,
 				A5B1A31D247F83E8006C9340 /* Acidos.plist */,
+				0EFAD3E7247F942F003D01C4 /* CompuestosIonicosPoliatomicos.plist */,
 				E397157E244DECFB005A239B /* Assets.xcassets */,
 				E3971580244DECFB005A239B /* LaunchScreen.storyboard */,
 				E3971583244DECFB005A239B /* Info.plist */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3971582244DECFB005A239B /* LaunchScreen.storyboard in Resources */,
+				0EFAD3E8247F942F003D01C4 /* CompuestosIonicosPoliatomicos.plist in Resources */,
 				E397157F244DECFB005A239B /* Assets.xcassets in Resources */,
 				A5B1A320247F868A006C9340 /* CompuestosMolecularesInorganicos.plist in Resources */,
 				E38F477624630C4000AA1293 /* chemistry.ttf in Resources */,
