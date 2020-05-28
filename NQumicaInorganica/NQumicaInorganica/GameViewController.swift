@@ -62,7 +62,7 @@ class GameViewController: ViewController {
             archivos = try PropertyListDecoder().decode([String].self, from: data)
         }
         catch {
-            archivos = ["Acidos", "CompuestosBinariosIonicos", "CompuestosMolecularesInorganicos", "CompuestosIonicosPoliatomicos", "cVar"]
+            archivos = ["Acidos", "CompuestosBinariosIonicos", "CompuestosMolecularesInorganicos", "CompuestosIonicosPoliatomicos"]
         }
         for archivo in archivos {
             let path = Bundle.main.path(forResource: archivo, ofType: "plist")

@@ -56,9 +56,6 @@ class ConfigViewController: ViewController {
             if !lista.contains("CompuestosMolecularesInorganicos") {
                 swMol.isOn = false
             }
-            if !lista.contains("CVar") {
-                swCVar.isOn = false
-            }
         }
         catch {
             print("Error al cargar los datos del archivo")
@@ -87,9 +84,6 @@ class ConfigViewController: ViewController {
         }
         if swMol.isOn {
             lista.append("CompuestosMolecularesInorganicos")
-        }
-        if swCVar.isOn {
-            lista.append("CVar")
         }
         
         if lista.count == 0 {
