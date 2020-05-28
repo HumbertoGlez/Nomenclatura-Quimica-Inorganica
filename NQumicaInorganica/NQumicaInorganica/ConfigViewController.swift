@@ -14,7 +14,6 @@ class ConfigViewController: ViewController {
     @IBOutlet weak var swIbin: UISwitch!
     @IBOutlet weak var swIPoli: UISwitch!
     @IBOutlet weak var swMol: UISwitch!
-    @IBOutlet weak var swCVar: UISwitch!
     
     
     var lista : [String]!
