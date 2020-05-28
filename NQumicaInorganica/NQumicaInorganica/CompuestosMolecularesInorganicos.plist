@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Item 0</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>monoxido de carbono</string>
+			<string>monóxido de carbono</string>
+		</array>
+		<key>Formula</key>
+		<string>CO</string>
+	</dict>
+	<key>Item 1</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>dioxido de carbono</string>
+			<string>dióxido de carbono</string>
+		</array>
+		<key>Formula</key>
+		<string>CO2</string>
+	</dict>
+	<key>Item 3</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>dióxido de azufre</string>
+			<string>dioxido de azufre</string>
+		</array>
+		<key>Formula</key>
+		<string>SO2</string>
+	</dict>
+	<key>Item 4</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>trioxido de azufre</string>
+			<string>trióxido de azufre</string>
+		</array>
+		<key>Formula</key>
+		<string>SO3</string>
+	</dict>
+	<key>Item 5</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>hexafluoruro de azufre</string>
+		</array>
+		<key>Formula</key>
+		<string>SF6</string>
+	</dict>
+	<key>Item 6</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>disulfuro de carbono</string>
+		</array>
+		<key>Formula</key>
+		<string>CS2</string>
+	</dict>
+	<key>Item 7</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>tetracloruro de carbono</string>
+		</array>
+		<key>Formula</key>
+		<string>CCl4</string>
+	</dict>
+	<key>Item 8</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>tricloruro de nitrógeno</string>
+			<string>tricloruro de nitrogeno</string>
+		</array>
+		<key>Formula</key>
+		<string>NCl3</string>
+	</dict>
+	<key>Item 9</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>pentabromuro de fósforo</string>
+			<string>pentabromuro de fosforo</string>
+		</array>
+		<key>Formula</key>
+		<string>PBr5</string>
+	</dict>
+	<key>Item 10</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>tricloruro de nitrógeno</string>
+			<string>tricloruro de nitrogeno</string>
+		</array>
+		<key>Formula</key>
+		<string>NCl3</string>
+	</dict>
+	<key>Item 11</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>tetroxido de dinitrogeno</string>
+			<string>tetroxido de dinitrógeno</string>
+			<string>tetróxido de dinitrógeno</string>
+			<string>tetróxido de dinitrogeno</string>
+		</array>
+		<key>Formula</key>
+		<string>N2O4</string>
+	</dict>
+	<key>Item 12</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>pentóxido de dinitrógeno</string>
+			<string>pentóxido de dinitrogeno</string>
+			<string>pentoxido de dinitrógeno</string>
+			<string>pentoxido de dinitrogeno</string>
+		</array>
+		<key>Formula</key>
+		<string>N2O5</string>
+	</dict>
+	<key>Item 13</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>heptafluoruro de yodo</string>
+		</array>
+		<key>Formula</key>
+		<string>IF7</string>
+	</dict>
+	<key>Item 14</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>pentafluoruro de fósforo</string>
+			<string>pentafluoruro de fosforo</string>
+		</array>
+		<key>Formula</key>
+		<string>PF5</string>
+	</dict>
+	<key>Item 15</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>tricloruro de boro</string>
+		</array>
+		<key>Formula</key>
+		<string>BCl3</string>
+	</dict>
+	<key>Item 16</key>
+	<dict>
+		<key>Nombres</key>
+		<array>
+			<string>decaoxido de tetrafósforo</string>
+			<string>decaóxido de tetrafosforo</string>
+			<string>decaóxido de tetrafósforo</string>
+			<string>decaoxido de tetrafosforo</string>
+		</array>
+		<key>Formula</key>
+		<string>P4O10</string>
+	</dict>
+</dict>
+</plist>
