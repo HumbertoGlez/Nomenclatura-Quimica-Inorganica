@@ -9,7 +9,7 @@
 			<string>hidroxido de amonio</string>
 		</array>
 		<key>Formula</key>
-		<string>NH4OH</string>
+		<string>NH₄OH</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -17,7 +17,7 @@
 			<string>clorato de amonio</string>
 		</array>
 		<key>Formula</key>
-		<string>NH4ClO3</string>
+		<string>NH₄ClO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -25,7 +25,7 @@
 			<string>nitrato de amonio</string>
 		</array>
 		<key>Formula</key>
-		<string>NH4NO3</string>
+		<string>NH₄NO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -33,7 +33,7 @@
 			<string>carbonato de amonio</string>
 		</array>
 		<key>Formula</key>
-		<string>(NH4)2CO3</string>
+		<string>(NH₄)₂CO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -41,7 +41,7 @@
 			<string>sulfato de amonio</string>
 		</array>
 		<key>Formula</key>
-		<string>(NH4)2SO4</string>
+		<string>(NH₄)₂SO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -49,7 +49,7 @@
 			<string>fosfato de amonio</string>
 		</array>
 		<key>Formula</key>
-		<string>(NH4)3PO4</string>
+		<string>(NH₄)₃PO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -66,7 +66,7 @@
 			<string>clorato de litio</string>
 		</array>
 		<key>Formula</key>
-		<string>LiClO3</string>
+		<string>LiClO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -74,7 +74,7 @@
 			<string>nitrato de litio</string>
 		</array>
 		<key>Formula</key>
-		<string>LiNO3</string>
+		<string>LiNO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -82,7 +82,7 @@
 			<string>carbonato de litio</string>
 		</array>
 		<key>Formula</key>
-		<string>Li2CO3</string>
+		<string>Li₂CO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -90,7 +90,7 @@
 			<string>sulfito de litio</string>
 		</array>
 		<key>Formula</key>
-		<string>Li2SO3</string>
+		<string>Li₂SO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -98,7 +98,7 @@
 			<string>sulfato de litio</string>
 		</array>
 		<key>Formula</key>
-		<string>Li2SO4</string>
+		<string>Li₂SO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -106,7 +106,7 @@
 			<string>fosfato de litio</string>
 		</array>
 		<key>Formula</key>
-		<string>Li3PO4</string>
+		<string>Li₃PO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -115,7 +115,7 @@
 			<string>hidróxido de berilio</string>
 		</array>
 		<key>Formula</key>
-		<string>Be(OH)2</string>
+		<string>Be(OH)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -123,7 +123,7 @@
 			<string>clorato de berilio</string>
 		</array>
 		<key>Formula</key>
-		<string>Be(ClO3)2</string>
+		<string>Be(ClO₃)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -131,7 +131,7 @@
 			<string>nitrato de berilio</string>
 		</array>
 		<key>Formula</key>
-		<string>Be(NO3)2</string>
+		<string>Be(NO₃)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -139,7 +139,7 @@
 			<string>carbonato de berilio</string>
 		</array>
 		<key>Formula</key>
-		<string>BeCO3</string>
+		<string>BeCO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -147,7 +147,7 @@
 			<string>sulfato de berilio</string>
 		</array>
 		<key>Formula</key>
-		<string>BeSO4</string>
+		<string>BeSO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -155,7 +155,7 @@
 			<string>Fosfato de berilio</string>
 		</array>
 		<key>Formula</key>
-		<string>Be3(PO4)2</string>
+		<string>Be₃(PO₄)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -164,7 +164,7 @@
 			<string>hidroxido de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>B(OH)3</string>
+		<string>B(OH)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -172,7 +172,7 @@
 			<string>clorato de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>B(ClO3)3</string>
+		<string>B(ClO₃)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -180,7 +180,7 @@
 			<string>nitrato de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>B(NO3)3</string>
+		<string>B(NO₃)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -188,7 +188,7 @@
 			<string>nitrito de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>B(NO2)3</string>
+		<string>B(NO₂)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -196,7 +196,7 @@
 			<string>carbonato de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>B2(CO3)3</string>
+		<string>B₂(CO₃)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -204,7 +204,7 @@
 			<string>sulfato de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>B2(SO4)3</string>
+		<string>B₂(SO₄)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -212,7 +212,7 @@
 			<string>fosfato de boro</string>
 		</array>
 		<key>Formula</key>
-		<string>BPO4</string>
+		<string>BPO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -230,7 +230,7 @@
 			<string>hidróxido de cobre ii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu(OH)2</string>
+		<string>Cu(OH)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -238,7 +238,7 @@
 			<string>clorato de cobre i</string>
 		</array>
 		<key>Formula</key>
-		<string>CuClO3</string>
+		<string>CuClO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -246,7 +246,7 @@
 			<string>clorato de cobre ii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu(ClO3)2</string>
+		<string>Cu(ClO₃)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -254,7 +254,7 @@
 			<string>nitrato de cobre i</string>
 		</array>
 		<key>Formula</key>
-		<string>CuNO3</string>
+		<string>CuNO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -262,7 +262,7 @@
 			<string>nitrato de cobre ii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu(NO3)2</string>
+		<string>Cu(NO₃)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -270,7 +270,7 @@
 			<string>carbonato de cobre i</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu2CO3</string>
+		<string>Cu₂CO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -278,7 +278,7 @@
 			<string>carbonato de cobre ii</string>
 		</array>
 		<key>Formula</key>
-		<string>CuCO3</string>
+		<string>CuCO₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -286,7 +286,7 @@
 			<string>sulfato de cobre i</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu2SO4</string>
+		<string>Cu₂SO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -294,7 +294,7 @@
 			<string>sulfato de cobre ii</string>
 		</array>
 		<key>Formula</key>
-		<string>CuSO4</string>
+		<string>CuSO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -302,7 +302,7 @@
 			<string>fosfato de cobre i</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu3PO4</string>
+		<string>Cu₃PO₄</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -310,7 +310,7 @@
 			<string>fosfato de cobre ii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cu3(PO4)2</string>
+		<string>Cu₃(PO₄)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -319,7 +319,7 @@
 			<string>hidróxido de cromo ii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cr(OH)2</string>
+		<string>Cr(OH)₂</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -328,7 +328,7 @@
 			<string>hidróxido de cromo iii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cr(OH)3</string>
+		<string>Cr(OH)₃</string>
 	</dict>
 	<dict>
 		<key>Nombres</key>
@@ -336,7 +336,7 @@
 			<string>clorato de cromo ii</string>
 		</array>
 		<key>Formula</key>
-		<string>Cr(ClO3)2</string>
+		<string>Cr(ClO₃)₂</string>
 	</dict>
 </array>
 </plist>
