@@ -36,6 +36,10 @@ class GameViewController: ViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let Tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self , action: #selector(DismissKeyboard))
+        
+        view.addGestureRecognizer(Tap)
 
         // Do any additional setup after loading the view.
 //        arrDiccionarios = NSArray(contentsOfFile: path!)
@@ -47,7 +51,16 @@ class GameViewController: ViewController {
         lbCorrectas.attributedText = NSAttributedString(string: "0", attributes: [.underlineStyle: NSUnderlineStyle.single.rawValue])
         lbIntentos.text = "0"
         lbPorcentaje.text = "= 0%"
+        
     }
+    
+    
+    @objc func DismissKeyboard(){
+        
+        view.endEditing(true)
+    }
+    
+    
     
     func dataFileURL() -> URL {
         let url = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!

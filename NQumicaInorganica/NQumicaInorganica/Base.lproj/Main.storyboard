@@ -32,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="-814" y="107"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Menu" id="BYZ-38-t0r" customClass="ViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,16 +131,18 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ed0-WY-WfQ"/>
+                    <navigationItem key="navigationItem" id="ed0-WY-WfQ">
+                        <barButtonItem key="backBarButtonItem" title="Menu" id="EhK-lr-pYB"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="107.49625187406298"/>
         </scene>
-        <!--Config View Controller-->
+        <!--Configuración-->
         <scene sceneID="JIJ-R8-2Zz">
             <objects>
-                <viewController id="txZ-7P-dfR" customClass="ConfigViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Configuración" id="txZ-7P-dfR" customClass="ConfigViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="epn-BJ-JcX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,16 +150,12 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="zHk-aI-6AS">
                                 <rect key="frame" x="0.0" y="11" width="375" height="919"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="919" id="Eof-UF-Yac"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="Hlo-O4-e6d"/>
+                                    <constraint firstAttribute="width" constant="375" id="03A-LL-yiZ"/>
+                                    <constraint firstAttribute="height" constant="919" id="aV6-SR-EJN"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incluir los siguientes compuestos:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxN-di-dXC">
                                 <rect key="frame" x="0.0" y="65" width="375" height="89"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="89" id="YTW-Cx-Ba3"/>
-                                    <constraint firstAttribute="width" constant="375" id="fw1-qS-peI"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="Tiza" family="Tiza" pointSize="19"/>
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <nil key="highlightedColor"/>
@@ -165,8 +163,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ácidos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTg-sP-9VU">
                                 <rect key="frame" x="16" y="177" width="89" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="89" id="J0G-vq-IcQ"/>
-                                    <constraint firstAttribute="height" constant="24" id="nw7-DW-cWL"/>
+                                    <constraint firstAttribute="height" constant="24" id="WOG-H9-AtU"/>
+                                    <constraint firstAttribute="width" constant="89" id="fLT-Za-3te"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -175,8 +173,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compuestos Iónicos Binarios" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPM-M5-6IJ">
                                 <rect key="frame" x="16" y="245" width="226" height="49"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="aDa-Ba-f1B"/>
-                                    <constraint firstAttribute="width" constant="226" id="pff-9H-CHZ"/>
+                                    <constraint firstAttribute="height" constant="49" id="nt8-vH-VdH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="20"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -185,8 +182,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compuestos Iónicos Poliatómicos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2du-dm-ILW">
                                 <rect key="frame" x="16" y="333" width="211" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="hwp-HP-Ejy"/>
-                                    <constraint firstAttribute="width" constant="211" id="t5m-Fc-fcY"/>
+                                    <constraint firstAttribute="height" constant="45" id="aee-ps-LJ3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="20"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,47 +191,26 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compuestos Moleculares Inorgánicos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdG-aK-VYS">
                                 <rect key="frame" x="16" y="417" width="270" height="62"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="270" id="o81-Zb-zIe"/>
-                                    <constraint firstAttribute="height" constant="62" id="oaA-tg-bAI"/>
+                                    <constraint firstAttribute="height" constant="62" id="UM0-gP-575"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="20"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aY-p3-aIs">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aY-p3-aIs">
                                 <rect key="frame" x="294" y="174" width="51" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="CMo-3Y-GIh"/>
-                                    <constraint firstAttribute="height" constant="31" id="c5u-g0-jk8"/>
-                                </constraints>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yHy-2V-4jV">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yHy-2V-4jV">
                                 <rect key="frame" x="294" y="254" width="51" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="2e7-z8-ObH"/>
-                                    <constraint firstAttribute="width" constant="49" id="ZXM-mx-Af1"/>
-                                </constraints>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnj-q2-SQ3">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wnj-q2-SQ3">
                                 <rect key="frame" x="294" y="340" width="51" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="4qh-o5-46h"/>
-                                    <constraint firstAttribute="width" constant="49" id="xKq-kL-FyT"/>
-                                </constraints>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Etf-0v-ebu">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Etf-0v-ebu">
                                 <rect key="frame" x="294" y="433" width="51" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="49" id="1ic-f7-YzQ"/>
-                                    <constraint firstAttribute="height" constant="31" id="BBJ-2r-hh8"/>
-                                </constraints>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70d-ch-hDm">
                                 <rect key="frame" x="94" y="546" width="175" height="62"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="175" id="9Oz-ua-gOO"/>
-                                    <constraint firstAttribute="height" constant="62" id="QjJ-eG-5Mx"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="26"/>
                                 <state key="normal" title="Guardar" backgroundImage="Botones_Boton">
                                     <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -247,30 +222,40 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Etf-0v-ebu" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="115" id="05X-Aa-ggY"/>
-                            <constraint firstItem="yHy-2V-4jV" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="131" id="26e-W9-pUk"/>
-                            <constraint firstItem="zHk-aI-6AS" firstAttribute="trailing" secondItem="uxN-di-dXC" secondAttribute="trailing" id="5Id-C5-yrq"/>
-                            <constraint firstItem="70d-ch-hDm" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="243.5" id="8g1-dM-6Qp"/>
-                            <constraint firstItem="wnj-q2-SQ3" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="131" id="C2A-ah-IXS"/>
-                            <constraint firstItem="70d-ch-hDm" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="-6" id="DXv-OU-KXN"/>
-                            <constraint firstItem="mTg-sP-9VU" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="-144.5" id="FuM-cD-G6k"/>
-                            <constraint firstItem="2du-dm-ILW" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="22" id="G1L-c5-anQ"/>
-                            <constraint firstItem="2du-dm-ILW" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="-66" id="Ofl-cE-kUb"/>
-                            <constraint firstItem="Etf-0v-ebu" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="131" id="PlQ-TE-ci7"/>
-                            <constraint firstItem="zHk-aI-6AS" firstAttribute="leading" secondItem="uxN-di-dXC" secondAttribute="leading" id="Qhq-YR-0Kl"/>
-                            <constraint firstItem="pdG-aK-VYS" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="-36.5" id="REg-BM-EdA"/>
-                            <constraint firstItem="7aY-p3-aIs" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="-144" id="S13-Fc-aaY"/>
-                            <constraint firstItem="wnj-q2-SQ3" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="22" id="Vh6-1M-Sxr"/>
-                            <constraint firstItem="uxN-di-dXC" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" id="WyC-Ac-OK2"/>
-                            <constraint firstItem="pdG-aK-VYS" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="114.5" id="YvW-i5-nfi"/>
-                            <constraint firstItem="PPM-M5-6IJ" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="-64" id="Z12-5B-Tux"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="zHk-aI-6AS" secondAttribute="bottom" constant="-263" id="bg9-R4-h4H"/>
-                            <constraint firstItem="zHk-aI-6AS" firstAttribute="top" secondItem="epn-BJ-JcX" secondAttribute="topMargin" constant="-33" id="c6h-Xw-eW6"/>
-                            <constraint firstItem="mTg-sP-9VU" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="-127" id="dOi-4H-EhB"/>
-                            <constraint firstItem="7aY-p3-aIs" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="131" id="edd-hv-buC"/>
-                            <constraint firstItem="PPM-M5-6IJ" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" constant="-58.5" id="ln6-ec-2VN"/>
-                            <constraint firstItem="yHy-2V-4jV" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="-64" id="oRW-92-PRE"/>
-                            <constraint firstItem="uxN-di-dXC" firstAttribute="centerY" secondItem="epn-BJ-JcX" secondAttribute="centerY" constant="-224" id="yqk-wP-dgt"/>
+                            <constraint firstItem="zHk-aI-6AS" firstAttribute="leading" secondItem="uxN-di-dXC" secondAttribute="leading" id="04W-NB-eml"/>
+                            <constraint firstItem="PPM-M5-6IJ" firstAttribute="top" secondItem="mTg-sP-9VU" secondAttribute="bottom" constant="44" id="0iL-be-1qz"/>
+                            <constraint firstItem="mTg-sP-9VU" firstAttribute="leading" secondItem="PPM-M5-6IJ" secondAttribute="leading" id="2Ju-6M-Lzt"/>
+                            <constraint firstItem="uxN-di-dXC" firstAttribute="leading" secondItem="0li-vs-C5L" secondAttribute="leading" id="3Bi-8c-8Q0"/>
+                            <constraint firstItem="PPM-M5-6IJ" firstAttribute="centerY" secondItem="yHy-2V-4jV" secondAttribute="centerY" id="3Wv-Hb-CkJ"/>
+                            <constraint firstItem="7aY-p3-aIs" firstAttribute="leading" secondItem="yHy-2V-4jV" secondAttribute="leading" id="5kt-rJ-iQ6"/>
+                            <constraint firstItem="wnj-q2-SQ3" firstAttribute="leading" secondItem="Etf-0v-ebu" secondAttribute="leading" id="6bL-ZW-3Ac"/>
+                            <constraint firstItem="pdG-aK-VYS" firstAttribute="centerY" secondItem="Etf-0v-ebu" secondAttribute="centerY" id="Aic-WS-Lj0"/>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="bottom" secondItem="70d-ch-hDm" secondAttribute="bottom" constant="59" id="CF5-qk-A2K"/>
+                            <constraint firstItem="zHk-aI-6AS" firstAttribute="trailing" secondItem="uxN-di-dXC" secondAttribute="trailing" id="DuJ-C8-6b3"/>
+                            <constraint firstItem="2du-dm-ILW" firstAttribute="leading" secondItem="pdG-aK-VYS" secondAttribute="leading" id="F0W-dV-riJ"/>
+                            <constraint firstItem="yHy-2V-4jV" firstAttribute="leading" secondItem="wnj-q2-SQ3" secondAttribute="leading" id="Mx8-O5-Ed4"/>
+                            <constraint firstItem="Etf-0v-ebu" firstAttribute="top" secondItem="wnj-q2-SQ3" secondAttribute="bottom" constant="62" id="OHj-oO-Yuf"/>
+                            <constraint firstItem="wnj-q2-SQ3" firstAttribute="top" secondItem="yHy-2V-4jV" secondAttribute="bottom" constant="55" id="WbS-ET-iqC"/>
+                            <constraint firstItem="uxN-di-dXC" firstAttribute="centerX" secondItem="epn-BJ-JcX" secondAttribute="centerX" id="Wdg-9c-bXW"/>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="bottom" secondItem="Etf-0v-ebu" secondAttribute="bottom" constant="203" id="XdE-6o-O4c"/>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="trailing" secondItem="7aY-p3-aIs" secondAttribute="trailing" constant="32" id="ZWQ-Xg-sgX"/>
+                            <constraint firstItem="uxN-di-dXC" firstAttribute="top" secondItem="0li-vs-C5L" secondAttribute="top" constant="21" id="bop-6r-xog"/>
+                            <constraint firstItem="yHy-2V-4jV" firstAttribute="leading" secondItem="PPM-M5-6IJ" secondAttribute="trailing" constant="52" id="bvU-5V-XwH"/>
+                            <constraint firstItem="wnj-q2-SQ3" firstAttribute="leading" secondItem="2du-dm-ILW" secondAttribute="trailing" constant="67" id="dQC-M4-P9U"/>
+                            <constraint firstItem="7aY-p3-aIs" firstAttribute="top" secondItem="uxN-di-dXC" secondAttribute="bottom" constant="20" id="dag-2R-RPH"/>
+                            <constraint firstItem="Etf-0v-ebu" firstAttribute="leading" secondItem="pdG-aK-VYS" secondAttribute="trailing" constant="8" id="fid-9a-xqj"/>
+                            <constraint firstItem="70d-ch-hDm" firstAttribute="top" secondItem="pdG-aK-VYS" secondAttribute="bottom" constant="67" id="g5P-mY-TGd"/>
+                            <constraint firstItem="mTg-sP-9VU" firstAttribute="top" secondItem="uxN-di-dXC" secondAttribute="bottom" constant="23" id="gul-mu-JEs"/>
+                            <constraint firstItem="2du-dm-ILW" firstAttribute="top" secondItem="PPM-M5-6IJ" secondAttribute="bottom" constant="39" id="kLr-Ov-tI2"/>
+                            <constraint firstItem="70d-ch-hDm" firstAttribute="leading" secondItem="0li-vs-C5L" secondAttribute="leading" constant="94" id="mvN-63-S84"/>
+                            <constraint firstItem="0li-vs-C5L" firstAttribute="trailing" secondItem="70d-ch-hDm" secondAttribute="trailing" constant="106" id="qa5-15-Jep"/>
+                            <constraint firstItem="mTg-sP-9VU" firstAttribute="centerY" secondItem="7aY-p3-aIs" secondAttribute="centerY" id="qks-qe-4Dj"/>
+                            <constraint firstItem="yHy-2V-4jV" firstAttribute="top" secondItem="7aY-p3-aIs" secondAttribute="bottom" constant="49" id="rko-ZG-E5z"/>
+                            <constraint firstItem="pdG-aK-VYS" firstAttribute="top" secondItem="2du-dm-ILW" secondAttribute="bottom" constant="39" id="sfg-K3-RJ7"/>
+                            <constraint firstItem="PPM-M5-6IJ" firstAttribute="leading" secondItem="2du-dm-ILW" secondAttribute="leading" id="tjX-Ip-hhG"/>
+                            <constraint firstItem="mTg-sP-9VU" firstAttribute="leading" secondItem="epn-BJ-JcX" secondAttribute="leadingMargin" id="vRt-mR-yPy"/>
+                            <constraint firstItem="zHk-aI-6AS" firstAttribute="top" secondItem="epn-BJ-JcX" secondAttribute="topMargin" constant="-33" id="vUq-BA-NDh"/>
+                            <constraint firstItem="2du-dm-ILW" firstAttribute="centerY" secondItem="wnj-q2-SQ3" secondAttribute="centerY" id="ycZ-EH-cHX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="0li-vs-C5L"/>
                     </view>
@@ -286,16 +271,17 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="806.44677661169419"/>
         </scene>
-        <!--Game View Controller-->
+        <!--Juego-->
         <scene sceneID="wVK-ib-PtH">
             <objects>
-                <viewController id="iC1-MM-Kw8" customClass="GameViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Juego" id="iC1-MM-Kw8" customClass="GameViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H3n-Rw-ydI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="Efi-DY-WAs">
-                                <rect key="frame" x="0.0" y="44" width="375" height="2400"/>
+                                <rect key="frame" x="0.0" y="-31" width="375" height="2400"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formula del compuesto" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdu-Mh-CJg">
                                 <rect key="frame" x="12.5" y="129" width="350" height="76"/>
@@ -352,12 +338,6 @@
                                     <action selector="sigFormula:" destination="iC1-MM-Kw8" eventType="touchUpInside" id="d0L-Ln-d9R"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dim-nj-3J6">
-                                <rect key="frame" x="16" y="213" width="343" height="21"/>
-                                <fontDescription key="fontDescription" name="Tiza" family="Tiza" pointSize="14"/>
-                                <color key="textColor" red="0.65490196079999996" green="0.91764705879999997" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-At-xnx">
                                 <rect key="frame" x="209" y="524" width="150" height="92"/>
                                 <subviews>
@@ -396,26 +376,36 @@
                                     <constraint firstAttribute="height" constant="92" id="hww-94-e24"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dim-nj-3J6">
+                                <rect key="frame" x="16" y="201" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="68n-kV-Kzo"/>
+                                    <constraint firstAttribute="height" constant="21" id="irZ-jT-nnb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tiza" family="Tiza" pointSize="14"/>
+                                <color key="textColor" red="0.65490196079999996" green="0.91764705879999997" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.15294117647058825" green="0.16470588235294117" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="dim-nj-3J6" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" constant="-122" id="3Uk-hq-WCh"/>
+                            <constraint firstItem="Efi-DY-WAs" firstAttribute="leading" secondItem="1bh-9F-Uaf" secondAttribute="leading" id="8BU-Db-dU6"/>
+                            <constraint firstItem="Efi-DY-WAs" firstAttribute="top" secondItem="H3n-Rw-ydI" secondAttribute="topMargin" constant="-75" id="AXM-0e-PiY"/>
                             <constraint firstItem="EiM-At-xnx" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="ERV-Ut-J3S"/>
                             <constraint firstItem="CbK-wq-HHc" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" constant="-86.5" id="HWg-hh-XgX"/>
-                            <constraint firstItem="Efi-DY-WAs" firstAttribute="centerX" secondItem="dim-nj-3J6" secondAttribute="centerX" id="JP8-T0-hub"/>
                             <constraint firstItem="CbK-wq-HHc" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="KTG-H5-XJf"/>
                             <constraint firstItem="1rb-Ma-UPd" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" id="MP2-6O-EaQ"/>
                             <constraint firstItem="kdu-Mh-CJg" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="PkF-XK-Hqs"/>
                             <constraint firstItem="gee-Ir-Euy" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="Xsg-ML-zIx"/>
                             <constraint firstItem="Q35-lo-6tC" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="YAH-Y9-zjw"/>
-                            <constraint firstItem="Efi-DY-WAs" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1bh-9F-Uaf" secondAttribute="bottom" id="YUT-Ls-JUS"/>
-                            <constraint firstItem="Efi-DY-WAs" firstAttribute="top" secondItem="1bh-9F-Uaf" secondAttribute="top" id="Z2s-5D-xeF"/>
-                            <constraint firstItem="Efi-DY-WAs" firstAttribute="leading" secondItem="1bh-9F-Uaf" secondAttribute="leading" id="hu5-jc-d22"/>
                             <constraint firstItem="EiM-At-xnx" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" constant="236.5" id="iq9-8L-hXo"/>
                             <constraint firstItem="gee-Ir-Euy" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" constant="104.5" id="jak-Eu-7UK"/>
+                            <constraint firstItem="dim-nj-3J6" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="mlA-gg-X5d"/>
+                            <constraint firstItem="Efi-DY-WAs" firstAttribute="centerX" secondItem="1rb-Ma-UPd" secondAttribute="centerX" id="qir-ht-UK2"/>
                             <constraint firstItem="1rb-Ma-UPd" firstAttribute="centerX" secondItem="H3n-Rw-ydI" secondAttribute="centerX" id="rTi-Ab-5PR"/>
                             <constraint firstItem="Q35-lo-6tC" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" constant="46.5" id="uYW-X1-94B"/>
                             <constraint firstItem="kdu-Mh-CJg" firstAttribute="centerY" secondItem="H3n-Rw-ydI" secondAttribute="centerY" constant="-166.5" id="w3Q-hH-gln"/>
-                            <constraint firstItem="Efi-DY-WAs" firstAttribute="centerX" secondItem="1rb-Ma-UPd" secondAttribute="centerX" id="zUC-Ez-pRs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1bh-9F-Uaf"/>
                     </view>
@@ -433,10 +423,10 @@
             </objects>
             <point key="canvasLocation" x="900" y="119.1904047976012"/>
         </scene>
-        <!--Config View Controller-->
+        <!--Créditos-->
         <scene sceneID="sYR-2a-cZ4">
             <objects>
-                <viewController id="Vd2-EF-25z" customClass="ConfigViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Créditos" id="Vd2-EF-25z" customClass="ConfigViewController" customModule="NQumicaInorganica" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R8g-m1-CJF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,43 +434,60 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="AOt-zn-hUO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Melba Consuelos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4a-bb-GU1">
+                                <rect key="frame" x="10" y="10" width="132.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A01410921" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwF-gJ-PQw">
-                                <rect key="frame" x="267" y="201" width="91" height="24"/>
-                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
+                                <rect key="frame" x="245" y="517" width="77.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A00822594" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmj-5N-KCb">
-                                <rect key="frame" x="245" y="301" width="114" height="24"/>
-                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
+                                <rect key="frame" x="245" y="553" width="97.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Melba Consuelos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kv-Az-ieN">
-                                <rect key="frame" x="16" y="201" width="155" height="23.5"/>
-                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
+                                <rect key="frame" x="16" y="517" width="132.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desarrolladores: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDL-JY-0rL">
+                                <rect key="frame" x="16" y="475" width="133" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KJO-XL-DCs"/>
+                                    <constraint firstAttribute="width" constant="133" id="tEQ-8F-PZF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humberto González" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PpS-bl-6Qg">
-                                <rect key="frame" x="16" y="302" width="179" height="23.5"/>
-                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
+                                <rect key="frame" x="16" y="553" width="153.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Francisco Barrón" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWT-cy-cFh">
-                                <rect key="frame" x="16" y="381" width="179" height="94"/>
+                                <rect key="frame" x="16" y="553" width="179" height="94"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="94" id="ShZ-SW-PsA"/>
                                     <constraint firstAttribute="width" constant="179" id="nVj-I1-BoT"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A00823939" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfh-5L-SRM">
-                                <rect key="frame" x="245" y="416" width="114" height="24"/>
-                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="21"/>
+                                <rect key="frame" x="245" y="590" width="97.5" height="20.5"/>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="18"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -496,29 +503,44 @@
                                 <color key="textColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CT3-ZW-UTZ">
+                                <rect key="frame" x="16" y="173" width="343" height="267"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="fee-3g-OBh"/>
+                                    <constraint firstAttribute="height" constant="267" id="sAP-TF-1L5"/>
+                                </constraints>
+                                <string key="text">Nomenclatura Química Inorgánica fue desarrollada como proyetco final de la materia Proyecto de Desarrollo para dispositivos Móviles en el semestre Febrero Junio 2020.</string>
+                                <fontDescription key="fontDescription" name="Chemistry" family="Chemistry" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="xmj-5N-KCb" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="114.5" id="0zi-C8-gRp"/>
-                            <constraint firstItem="cfh-5L-SRM" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="114.5" id="13h-yM-S0g"/>
-                            <constraint firstItem="ZWT-cy-cFh" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="94.5" id="9JM-ke-PrM"/>
-                            <constraint firstItem="5kv-Az-ieN" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-120.8" id="Axl-qw-sC5"/>
+                            <constraint firstItem="xmj-5N-KCb" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="106.25" id="0zi-C8-gRp"/>
+                            <constraint firstItem="cfh-5L-SRM" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="106.25" id="13h-yM-S0g"/>
+                            <constraint firstItem="vDL-JY-0rL" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="152" id="2gX-Ym-zs5"/>
+                            <constraint firstItem="ZWT-cy-cFh" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="266.5" id="9JM-ke-PrM"/>
+                            <constraint firstItem="5kv-Az-ieN" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="193.75" id="Axl-qw-sC5"/>
                             <constraint firstItem="GDf-n8-9w9" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" id="C7E-Da-FxJ"/>
                             <constraint firstItem="GDf-n8-9w9" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" id="Fkf-uc-g1C"/>
+                            <constraint firstItem="CT3-ZW-UTZ" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-27" id="Gff-BT-hnn"/>
                             <constraint firstItem="AOt-zn-hUO" firstAttribute="centerX" secondItem="GDf-n8-9w9" secondAttribute="centerX" id="LLL-4F-IJE"/>
-                            <constraint firstItem="kwF-gJ-PQw" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="125" id="LpL-ro-xAe"/>
+                            <constraint firstItem="kwF-gJ-PQw" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="96.25" id="LpL-ro-xAe"/>
                             <constraint firstItem="AOt-zn-hUO" firstAttribute="leading" secondItem="6n9-8z-mnr" secondAttribute="leading" id="Pij-9e-aNB"/>
                             <constraint firstItem="AOt-zn-hUO" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6n9-8z-mnr" secondAttribute="bottom" id="bj5-lM-esg"/>
-                            <constraint firstItem="cfh-5L-SRM" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="94.5" id="c77-ig-UZK"/>
-                            <constraint firstItem="PpS-bl-6Qg" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-19.800000000000001" id="dif-Lf-bfZ"/>
-                            <constraint firstItem="5kv-Az-ieN" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="-94" id="ehI-ob-dou"/>
+                            <constraint firstItem="cfh-5L-SRM" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="266.5" id="c77-ig-UZK"/>
+                            <constraint firstItem="PpS-bl-6Qg" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="229.75" id="dif-Lf-bfZ"/>
+                            <constraint firstItem="5kv-Az-ieN" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="-105.25" id="ehI-ob-dou"/>
+                            <constraint firstItem="CT3-ZW-UTZ" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" id="hea-7n-l9v"/>
                             <constraint firstItem="GDf-n8-9w9" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-213.5" id="kgs-vX-Jvk"/>
-                            <constraint firstItem="PpS-bl-6Qg" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="-82" id="lOY-qb-WKC"/>
+                            <constraint firstItem="PpS-bl-6Qg" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="-94.75" id="lOY-qb-WKC"/>
                             <constraint firstItem="AOt-zn-hUO" firstAttribute="top" secondItem="R8g-m1-CJF" secondAttribute="topMargin" constant="-66" id="mQ7-rw-4C3"/>
                             <constraint firstItem="ZWT-cy-cFh" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="-82" id="nb8-5u-mNe"/>
                             <constraint firstItem="GDf-n8-9w9" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-213.5" id="pti-7p-qut"/>
-                            <constraint firstItem="kwF-gJ-PQw" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-120.5" id="sIG-ar-IuL"/>
-                            <constraint firstItem="xmj-5N-KCb" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="-20.5" id="uVn-gz-LeD"/>
+                            <constraint firstItem="kwF-gJ-PQw" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="193.75" id="sIG-ar-IuL"/>
+                            <constraint firstItem="vDL-JY-0rL" firstAttribute="centerX" secondItem="R8g-m1-CJF" secondAttribute="centerX" constant="-105" id="sP4-Sa-AWe"/>
+                            <constraint firstItem="xmj-5N-KCb" firstAttribute="centerY" secondItem="R8g-m1-CJF" secondAttribute="centerY" constant="229.75" id="uVn-gz-LeD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6n9-8z-mnr"/>
                     </view>
